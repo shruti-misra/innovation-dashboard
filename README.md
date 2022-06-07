@@ -1,6 +1,6 @@
 # Deployment Link
 
-Our project is deployed here: https://cse512-22sp.pages.cs.washington.edu/Metro-Innovation/
+Our project is deployed here: https://shruti-misra.github.io/innovation-dashboard/
 
 # Design Decisions and Development Process
 
@@ -10,7 +10,7 @@ The goal of our visualization was to create a series of dashboards that helped v
 
 ### Data Rationale
 
-Since this project was based on Shruti's research project, she had already narrowed down cities of interest to 37 out of 384 metropolitan cities in the U.S (see: https://cse512-22sp.pages.cs.washington.edu/Metro-Innovation/#background). We then started by choosing our data of interest for this project. Shruti already had federal R&D funding, venture capital funding and Small Business Innovation Research (SBIR) funding data for the 37 metropolitan areas we studied for the year 2019. We decided to normalize each type of funding by population (per capita) to account for the fact that bigger cities are likely to receive more funding because they have more people. 
+Since this project was based on Shruti's research project, she had already narrowed down cities of interest to 37 out of 384 metropolitan cities in the U.S (see: https://shruti-misra.github.io/innovation-dashboard/#background). We then started by choosing our data of interest for this project. Shruti already had federal R&D funding, venture capital funding and Small Business Innovation Research (SBIR) funding data for the 37 metropolitan areas we studied for the year 2019. We decided to normalize each type of funding by population (per capita) to account for the fact that bigger cities are likely to receive more funding because they have more people. 
 
 Shruti also had data on the different industry sectors and technology verticals funded by venture capital in the year 2019 for each of the 37 areas. Other data, displayed on the data ban had also been collected prior to the project. Additional data was collected for universities (latitude, longitude and disciplinary breakdown) and the number of new businesses/establishments in the cities by industry sectors. We decided to focus on a single year (2019) instead of looking at temporal data because we wanted to provide a snapshot of what is going on in different cities in that specific year. More recent data from 2020 and 2021 was not considered because it is possible that the COVID-19 pandemic may have disrupted funding patterns temporarily and would not have been an accurate depiction of innovation activity. 
 
@@ -53,7 +53,7 @@ Cities with most funding vs employments: I wanted the user to see if there was a
 
 - Shruti prototyped her design in Altair (~ 6 hours)
 
-- Using her prototype Shruti then designed and conducted a quick survey to identify potential users and use cases (see results here: https://cse512-22sp.pages.cs.washington.edu/Metro-Innovation/#users)
+- Using her prototype Shruti then designed and conducted a quick survey to identify potential users and use cases (see results here: https://shruti-misra.github.io/innovation-dashboard/#users)
 
 - Boyuan then laid out the final design (~ 5 hours)
 
