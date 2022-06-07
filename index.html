@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+    <title>Innovation Across US Cities</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <a class="pure-menu-heading" href="#">Home</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#background" class="pure-menu-link">Background</a></li>
+                <li class="pure-menu-item"><a href="#users" class="pure-menu-link">Users</a></li>
+                <li class="pure-menu-item"><a href="#members" class="pure-menu-link">Members</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="header">
+            <h1>CSE 512: Final Project</h1>
+        </div>
+        <div class="content">
+<div class='tableauPlaceholder' id='viz1654277098470' style='position: relative'><noscript><a href='#'><img alt='Main Page ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CS&#47;CSE512finaldashboard-Shruti&#47;MainPage&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CSE512finaldashboard-Shruti&#47;MainPage' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;CS&#47;CSE512finaldashboard-Shruti&#47;MainPage&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1654277098470');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="background">
+        <div class="header">
+            <h1>Background</h1>
+        </div>
+        <div class="content">
+            The process of technological innovation has been studied across different fields within academia, from economics to business and systems engineering. Metrics measuring innovation across various fields belong to three main categories, metrics around university research and development (R&D), industry structure and entrepreneurship. These metrics vary across regions are are based on the universities, industries, policy and other characteristics of a regional environment.
+            <h2 class="content-subhead">Preliminary Analysis</h2>
+            <p>
+                We chose the metropolitan statistical area (MSA) as my regional unit of analysis. Even though conducting a state-level analysis would be easier, as a lot of federal data is easily accessible at the state level, it would be based on the false assumption that university-industry collaborations occur uniformly across a state. In reality, these collaborations (for all three dimensions: industry, research and entrepreneurship) are centered in urban, metropolitan regions. Therefore, an analysis at the MSA level will provide a more detailed and specific picture of these interactions.
+                <br>
+                Furthermore, as a starting point, we decided to choose 2019 as the year for analysis. This is because data for 2020 and 2021 will likely be influenced by the COVID-19 pandemic. To control scope, we only looked at cross-sectional data.
+            </p>
+
+            <h2 class="content-subhead">Preliminary Data Collection</h2>
+            <p>
+                Prior to this class project, one of the teammembers (Shruti Misra) had already collected preliminary data, which she used to choose regions of interest. The following data sources were used for the preliminary analysis.
+            <ul>
+                <li><b>Federal R&D Data:</b> grants.gov, National Science Foundation Database</li>
+                <li><b>Industry Data:</b> Bureau of Labor Statistics Databases, Pitchbook</li>
+                <li><b>Venture Capital Data:</b> Pitchbook</li>
+            </ul>
+
+            </p>
+        </div>
+</div>
+    <div id="users">
+        <div class="header">
+            <h1>User Research and Feedback</h1>
+        </div>
+        <div class="content">
+            <h2 class="content-subhead">User Survey</h2>
+            <p>
+                To gather preliminary information on who are users maybe and why might a tool like this be useful to them, we designed a brief user survey linked <a href="https://forms.gle/MTUueNmvutmyLt2M6">here</a>, with a snippet of our initial design idea. The questions asked whether the respondents would find our tool useful, if so then why. 
+            </p>
+
+            <h2 class="content-subhead">Results</h2>
+            <p>
+                We got a total of 8 respondents, of which 62.5% of our respondents said that they would definitely find out tool useful and the rest 37.5% respondents thought that our tool "maybe" useful to them. We do realize that the survey may suffer from self-selection bias as users not interested may not have responded to the survey. In the future, better sampling techniques might help. Most of our respondenets worked in the areas of healthcare and computer and information sciences. Over half of our respondents worked in university technology transfer settings, a third of them were academics, a third of the respondents worked in startups and a quarter were also investors. Note that these roles maybe overalapping. 
+<br>
+                We found that different users would use this tool for different task. For example, one of the entrepreneurs said that this tool may help them with recruiting talent pertaining to their technology and finding collaborations. One of the technology transfer managers said that this tool might help them identify research generating cutting edge technology and "provide a signal for future investments" and what areas are being funding or not. 
+<br>
+In terms of what information will be relevant, some respondents wanted to see temporal data, deltas in funding when it comes to various sectors, how many startups have spun out of universities and metrics for gauging social impact.
+            </p>
+                        <h2 class="content-subhead">Usability Feedback</h2>
+            <p>
+                After we completed our prototype, we used the "I like, I wish and "what if?" framework to get usability feedback from some users. Overall, the users liked how the data on funding types is visualized using a heat map and how the single design displays a lot of information without being cluttered. They also liked the colors on the heatmap and the tooltips. Some users also liked the data ban and user instructions at the bottom of each page. A user also liked the map of federal R&D expenditure by university. And found it interesting to see how clicking on each city in the pie chart changed its discipline area.
+<br>
+
+Users wished that the logos on the data ban would take them to a different navigation window instead of the buttons. While this is good advice, we were unable to modify the design in order to do this due to time constraints. Another user would have liked more explanation about the establishments and technology verticals. Another suer wished that the display window was larger.
+
+We believe that this is great preliminary feedback that can be used to improve the design further in the future. 
+            </p>
+
+        </div>
+</div>
+    <div id="members">
+        <div class="header">
+            <h1>Team Members</h1>
+        </div>
+        <div class="content">
+            <h2 class="content-subhead">Neha Kardam</h2>
+            <p>
+                Neha Kardam is a third year PhD student in Electrical and Computer Engineering 
+            </p>
+
+            <h2 class="content-subhead">Shruti Misra</h2>
+            <p>
+                Shruti Misra is a fourth year PhD student in Electrical and Computer Engineering 
+            </p>
+                        <h2 class="content-subhead">Mai Peng</h2>
+            <p>
+                Mai Peng is a Masters student in Mechanical Engineering 
+            </p>
+                        <h2 class="content-subhead">Boyuan Xie</h2>
+            <p>
+                Boyuan Xie is a Masters student student in Electrical and Computer Engineering 
+            </p>
+        </div>
+</div>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
